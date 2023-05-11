@@ -1,0 +1,44 @@
+li{
+    color: var(--deep-purple);
+    border-radius: 12px;
+    width: 500px;
+    height: 30px;
+    padding: 16px;
+    margin: 12px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    box-shadow: -1px -1px 5px black;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.mainItemdiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    padding: 8px;
+}
+
+.leftside{
+    width: 500px;
+    display: grid;
+    justify-content: left;
+    align-content: center;
+    padding-left: 32px;
+}
+
+.rightside{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.close{
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

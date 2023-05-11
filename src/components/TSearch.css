@@ -1,0 +1,9 @@
+input{
+    border-radius: 12px;
+    padding: 8px;
+    width: 300px;
+    margin: 8px;
+    color: var(--deep-purple);
+    box-shadow: -1px -1px black;
+    background-color: rgb(220, 220, 220);
+}
