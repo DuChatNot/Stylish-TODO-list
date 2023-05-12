@@ -1,5 +1,4 @@
 li{
-    color: var(--deep-purple);
     border-radius: 12px;
     width: 500px;
     height: 30px;
@@ -8,10 +7,9 @@ li{
     display: grid;
     justify-content: center;
     align-content: center;
-    box-shadow: -1px -1px 5px black;
-    display: grid;
-    justify-content: center;
-    align-content: center;
+    box-shadow: -3px -3px 5px black;
+    background-color: var(--light-white);
+    color: var(--pink-red);
 }
 
 .mainItemdiv{
@@ -41,4 +39,11 @@ li{
     width: 30px;
     height: 30px;
     cursor: pointer;
+
+    transform: rotate(0);
+    transition: .6s ease;
+}
+
+.close:hover{
+    transform: rotate(360deg);
 }

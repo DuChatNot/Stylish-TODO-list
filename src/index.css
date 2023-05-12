@@ -1,9 +1,11 @@
 :root{
-  --light-dark: rgba(0,0,0,0.4);
-  --sunset-orange:  rgb(253, 160, 29);
-  --light-white:  rgba(230, 230, 230);
-  --mid-blue: rgb(71, 20, 255);
-  --deep-purple: rgb(100, 0, 105);
+  --light-white:  rgb(219, 219, 219);
+  --orange-juice: rgb(246, 123, 0);
+  --pink-red: rgb(246, 3, 113);
+}
+
+*{
+  box-sizing: border-box;
 }
 
 body {
@@ -17,9 +19,9 @@ body {
   margin: 16px;
   padding: 16px;
   border-radius: 16px;
-  width: 100vw;
-  height: 100vh;
-  background: no-repeat linear-gradient(to bottom right, rgb(118, 20, 255), rgb(253, 160, 29));
+  height: 100%;
+
+  background-color: black;
 }
 
 code {
@@ -29,9 +31,9 @@ code {
 
 .main{
   border-radius: 16px;
-  background-color: var(--light-white);
-  box-shadow: -12px -10px black;
+  background: no-repeat linear-gradient(to bottom right,var(--orange-juice), var(--pink-red));
+  box-shadow: 5px 5px 75px var(--pink-red);
   padding: 16px;
-  width: 650px;
+  width: auto;
   height: auto;
 }

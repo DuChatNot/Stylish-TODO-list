@@ -3,7 +3,7 @@ button{
     padding: 4px;
     width: 50px;
     margin: 8px;
-    color: var(--deep-purple);
+    color: var(--pink-red);
     cursor: pointer;
     background-color: rgb(220, 220, 220);
 }

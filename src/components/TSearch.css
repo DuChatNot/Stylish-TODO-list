@@ -3,7 +3,8 @@ input{
     padding: 8px;
     width: 300px;
     margin: 8px;
-    color: var(--deep-purple);
+    color: var(--pink-red);
     box-shadow: -1px -1px black;
-    background-color: rgb(220, 220, 220);
+    background-color: var(--light-white);
+    border: 2px solid black;
 }
