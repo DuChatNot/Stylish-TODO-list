@@ -1,5 +1,6 @@
 .mainTitle{
     display: grid;
+    font-family: 'Julee', cursive;
     justify-content: center;
     align-content: center;
     border-radius: 12px;

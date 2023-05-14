@@ -10,6 +10,7 @@ li{
     box-shadow: -3px -3px 5px black;
     background-color: var(--light-white);
     color: var(--pink-red);
+    font-family: 'Julee', cursive;
 }
 
 .mainItemdiv{

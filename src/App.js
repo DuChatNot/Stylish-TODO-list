@@ -13,26 +13,28 @@ const defTasks = [
 
 function App() {
   return (
-    <div className='main'>
-      <TodoCounter completed={5} total={15}/>
-      <div className='interaction'>
-        <TodoSearch />
+    <>
+      <div className='main'>
+        <TodoCounter completed={5} total={15}/>
+        <div className='interaction'>
+          <TodoSearch />
+        </div>
+      
+
+        <TodoList>
+          {defTasks.map(p => (
+              <TodoItem 
+              key={p.id} 
+              text={p.text}
+              completed={p.completed} 
+              />
+          ))}
+        </TodoList>
+      </div>
+      <div className='bottomside'>
         <Button />
       </div>
-      
-
-      <TodoList>
-        {defTasks.map(p => (
-            <TodoItem 
-            key={p.id} 
-            text={p.text}
-            completed={p.completed} 
-            />
-        ))}
-      </TodoList>
-
-      
-    </div>
+    </>
   );
 }
 

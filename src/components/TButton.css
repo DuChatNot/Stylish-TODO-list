@@ -1,9 +1,101 @@
-button{
-    border-radius: 12px;
+.footer{
+    background: url('../../assets/waves.png');
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 88%;
+    left: 0;
+    z-index: 10;
+
+    animation: wave 20s infinite;
+}
+
+.footerB{
+    background: url('../../assets/waves.png');
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    opacity: 0.7;
+    z-index: 8;
+
+    animation: waveB 25s infinite;
+    animation-delay: 1s;
+}
+
+.footerC{
+    background: url('../../assets/waves.png');
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    top: 83%;
+    left: 0;
+    opacity: 0.4;
+    z-index: 7;
+
+    animation: wave 45s infinite;
+    animation-delay: 2s;
+}
+
+.footerD{
+    background: url('../../assets/waves.png');
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    top: 81%;
+    left: 0;
+    opacity: 0.1;
+    z-index: 7;
+
+    animation: waveB 65s infinite;
+}
+
+@keyframes wave{
+    0%{
+    background-position-x: 0px; 
+    }
+    50%{
+    background-position-x: 1000px; 
+    }
+    100%{
+    background-position-x: 0px;
+    }
+}
+
+@keyframes waveB{
+    0%{
+    background-position-x: 0px; 
+    }
+    50%{
+    background-position-x: -1000px; 
+    }
+    100%{
+        background-position-x: 0 ;
+    }
+}
+
+.add{
+    border-radius: 50px;
     padding: 4px;
-    width: 50px;
+    width: 100px;
+    height: 100px;
     margin: 8px;
-    color: var(--pink-red);
+    color: var(--light-white);
+    font-size: 56px;
     cursor: pointer;
-    background-color: rgb(220, 220, 220);
+    background: no-repeat linear-gradient(to bottom right,var(--deep-blue), var(--phantom-green));
+    box-shadow: 3px 3px 25px var(--light-white);
+    border: none;
+    position:fixed;
+    top: 85%;
+    left: 2%;
+    z-index: 15;
+
+    transform: rotate(0);
+    transition: .6s ease;
+}
+
+.add:hover{
+    transform: rotate(360deg);
 }
