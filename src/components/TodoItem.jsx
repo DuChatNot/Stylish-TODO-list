@@ -4,14 +4,10 @@ const TodoItem = ({text,completed}) => {
     return(
       <li>
         <div className='mainItemdiv'>
-          <div className='leftside'>
-            <span>{completed}</span>
-            <p>{text}</p>
-          </div>
-          <div className='rightside'>
-            <button className='close'>❌</button>
-          </div>
+            <button type='check' className={`check ${completed && "check-completed"}`}>V</button>
+            <p className={`text ${completed && "completed"}`}>{text}</p>
         </div>
+        <button className='close'>❌</button>
       </li>
     );
 };

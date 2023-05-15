@@ -1,44 +1,47 @@
 li{
     border-radius: 12px;
     width: 500px;
-    height: 30px;
-    padding: 16px;
+    height: 50px;
+    padding: 8px;
     margin: 12px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
+    display: flex;
     box-shadow: -3px -3px 5px black;
     background-color: var(--light-blue);
     color: var(--deep-blue);
-    font-family: 'Julee', cursive;
+    font-family:cursive;
 }
 
 .mainItemdiv{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    height: 40px;
-    padding: 8px;
-}
-
-.leftside{
-    width: 500px;
-    display: grid;
     justify-content: left;
-    align-content: center;
-    padding-left: 32px;
+    height: 50px;
+    width: 500px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
-.rightside{
+p{
+    align-self: center;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
     display: grid;
     justify-content: center;
     align-content: center;
+    margin-right: 12px;
+    border-radius: 8px;
+    align-self: center;
 }
 
 .close{
+    display: grid;
+    align-content: center;
+    justify-content: center;
     border-radius: 8px;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 
     transform: rotate(0);
@@ -47,4 +50,15 @@ li{
 
 .close:hover{
     transform: rotate(360deg);
+    width: 35px;
+    height: 35px;
+}
+
+
+.check-completed{
+    font-weight: bold;
+    color: #26ff00;
+}
+.completed{
+    text-decoration: line-through;
 }

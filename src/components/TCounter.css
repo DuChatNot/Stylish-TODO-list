@@ -17,3 +17,7 @@ h1{
     padding: '48px';
     color: var(--pink-red);
 }
+
+.mainTitle span{
+    font-weight: 300;
+}

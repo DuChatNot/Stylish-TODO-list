@@ -1,105 +1,8 @@
-.footer{
-    background:url('../../assets/waves.png');
-    width: 100vw;
-    height: 300px;
-    position: absolute;
-    top: 88%;
-    left: 0;
-    z-index: 10;
-
-    animation: wave 20s infinite;
-}
-
-.footerB{
-    background: url('../../assets/waves.png');
-    background-size: cover;
-    width: 100vw;
-    height: 300px;
-    position: absolute;
-    top: 80%;
-    left: 0;
-    opacity: 0.8;
-    z-index: 8;
-
-    animation: waveB 15s infinite 1s;
-}
-
-.footerC{
-    background: url('../../assets/waves.png');
-    width: 100vw;
-    height: 300px;
-    position: absolute;
-    top: 81%;
-    left: 0;
-    opacity: 0.4;
-    z-index: 7;
-
-    animation: wave 45s infinite 2s;
-}
-
-.footerD{
-    background:url('../../assets/waves.png');
-    background-size: cover;
-    width: 100vw;
-    height: 300px;
-    position: absolute;
-    top: 78%;
-    left: 0;
-    opacity: 0.2;
-    z-index: 7;
-
-    animation: waveB 35s infinite;
-}
-
-@keyframes wave{
-    0%{
-    background-position-x: 0px;
-    background-position-y: 0px;  
-    }
-    25%{
-    background-position-y: -15px;
-    }
-    50%{
-    background-position-x: 1000px;
-    background-position-y: 0px;
-    }
-    75%{
-    background-position-y: -25px;
-    }
-    100%{
-    background-position-x: 0px;
-    background-position-y: 0px;
-    }
-}
-
-@keyframes waveB{
-    0%{
-    background-position-x: 0px;
-    background-position-y: -10px;  
-    }
-    10%{background-position-y: 0px}
-    20%{background-position-y: -8px}
-    25%{background-position-y: -10px;}
-    30%{background-position-y: 0px}
-    40%{background-position-y: -6px}
-    50%{
-    background-position-x: 1000px;
-    background-position-y: 0px;
-    }
-    60%{background-position-y: -5px}
-    75%{background-position-y: 0px;}
-    90%{background-position-y: -5px}
-    100%{
-    background-position-x: 0px;
-    background-position-y: -10px;
-    }
-}
-
 .add{
     border-radius: 50px;
     padding: 4px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: 8px;
     color: var(--deep-blue);
     font-size: 56px;
@@ -118,4 +21,7 @@
 
 .add:hover{
     transform: rotate(360deg);
+    width: 100px;
+    height: 100px;
+
 }

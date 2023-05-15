@@ -4,6 +4,7 @@
   --ocean-blue: rgb(0, 98, 255);
   --deep-blue: rgb(0, 20, 88);
   font-family: 'Oswald', sans-serif;
+  min-height: 100vh;
 }
 
 *{
@@ -21,7 +22,6 @@ body {
   margin: 16px;
   padding: 16px;
   border-radius: 16px;
-  height: 50%;
   overflow: hidden;
 
   background-color: black;

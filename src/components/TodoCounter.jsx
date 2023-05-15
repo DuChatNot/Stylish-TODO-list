@@ -4,7 +4,7 @@ const TodoCounter = ({total, completed}) => {
     return(
         <div className='mainTitle'>
             <h1>
-                Completed: {completed} / {total}
+                Completed: <span>{completed}</span> / <span>{total}</span>
             </h1>
         </div>
         
