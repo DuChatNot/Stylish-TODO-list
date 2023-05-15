@@ -1,8 +1,8 @@
 :root{
-  --light-white:  rgb(219, 219, 219);
-  --deep-blue: rgb(0, 98, 255);
-  --phantom-green: rgb(0, 246, 172);
-  --pink-red: rgb(246, 3, 113);
+  --white: rgb(255, 255, 255);
+  --light-blue:  rgb(200, 240, 255);
+  --ocean-blue: rgb(0, 98, 255);
+  --deep-blue: rgb(0, 20, 88);
   font-family: 'Oswald', sans-serif;
 }
 
@@ -34,8 +34,9 @@ code {
 
 .main{
   border-radius: 16px;
-  background: no-repeat linear-gradient(to bottom right,var(--deep-blue), var(--phantom-green));
-  box-shadow: 2px 2px 65px var(--light-white);
+  border: 3px solid var(--deep-blue);
+  background: linear-gradient(to bottom right,var(--ocean-blue), var(--white));
+  box-shadow: 2px 2px 65px var(--white);
   padding: 16px;
   width: auto;
   height: auto;

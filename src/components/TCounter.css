@@ -1,13 +1,13 @@
 .mainTitle{
     display: grid;
-    font-family: 'Julee', cursive;
     justify-content: center;
     align-content: center;
     border-radius: 12px;
-    box-shadow: -2px -1px 1px black;
-    height: 40px;
-    background-color: var(--light-white);
-    border: 2px solid black;
+    box-shadow: -4px -4px black;
+    height: 50px;
+    background-color: var(--deep-blue);
+    border: 2px solid var(--white);
+    color: var(--white);
 }
 
 h1{
