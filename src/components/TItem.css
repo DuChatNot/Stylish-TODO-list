@@ -33,6 +33,19 @@ p{
     margin-right: 12px;
     border-radius: 8px;
     align-self: center;
+    cursor: pointer;
+    transform: rotate(0);
+    transition: 0.3s ease;
+    border: 1px solid var(--deep-blue);
+    color: var(--deep-blue);
+}
+
+.check:hover{
+    width: 35px;
+    height: 35px;
+    transform: rotate(360deg);
+    border: 3px dotted var(--success-green);
+    color: var(--success-green);
 }
 
 .close{
@@ -43,6 +56,8 @@ p{
     width: 25px;
     height: 25px;
     cursor: pointer;
+    color: var(--deep-blue);
+    border: 1px solid var(--deep-blue);
 
     transform: rotate(0);
     transition: .6s ease;
@@ -52,12 +67,15 @@ p{
     transform: rotate(360deg);
     width: 35px;
     height: 35px;
+    border: 3px dotted red;
+    color: red;
 }
 
 
 .check-completed{
     font-weight: bold;
-    color: #26ff00;
+    color: var(--success-green);
+    border: 1px solid var(--success-green);
 }
 .completed{
     text-decoration: line-through;
